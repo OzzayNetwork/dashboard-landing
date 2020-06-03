@@ -27,6 +27,10 @@
 </head>
 
 <body>
+	<!-- Modal -->
+	<!-- Modal -->
+
+
 <!--	!--	MENU CONTROLS--> 
 
 <!-- header --> 
@@ -55,14 +59,39 @@
 <!--	MENU CONTROLS-->
 
 <section id="home-one-info" class="homebg ">
+	<div class="modal fade" id="coming-soon" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0">
+        <h5 class="modal-title d-none" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <center>
+			 	<img src="img/comming-soon/coming.svg">
+			  <h1>Coming soon</h1>
+			  <p>We are still working on this, we will be rolling it out soon</p>
+		  </center>
+      </div>
+      
+    </div>
+  </div>
+</div>
 <!-- view-ad -->
+	
 <div id="home-section" class="parallax-section p-md-4">
   <div class="container">
     <div class="row p-md-4">
-      <div class="col-sm-12 col-md-5 position-relative z-index-10 title-container">
-		  <img src="img/logos/logo_hr.png" class="position-relative">
-        <h1 class="mb-0 p-0 the-title">revenue collection, management & administration platform</h1>
+      <div class="col-sm-12 col-md-6 position-relative z-index-10 title-container px-0">
+		  <img src="img/logos/logo_hr.png" class="position-relative animated fadeInRight">
+        <h1 class="mb-0 p-0 the-title d-none">Revenue Collection, Management & Administration Platform</h1>
       </div>
+		<div class="col-sm-12 col-md-6 position-relative z-index-10 title-container px-0 d-flex flex-column align-content-center justify-content-center kra-header">
+			<h1 class="text-white mb-0 animated fadeInLeft">KRA</h1>
+			<h1 class="text-white mb-0 pb-0  animated fadeInLeft">Master Dashboard</h1>
+      	</div>
 		<img src="img/land-img.jpg" class="theiimg2">
     </div>
     <!-- row --> 
@@ -167,12 +196,12 @@
 			<!--			the nodule-->
 			
 			<!--			the nodule-->
-			<a href="http://revenuesure.co.ke/citydashboard/dashboard" class="col-sm-12 col-md-6 col-lg-4 p-0 m-0 hvr-bounce-to-right">
+			<a class="col-sm-12 col-md-6 col-lg-4 p-0 m-0 hvr-bounce-to-right coming-soon" data-toggle="modal" data-target="#coming-soon">
 			<div class="the-module  d-flex align-items-center py-4 px-5 m-0 animated  animated fadeInLeft">
-				<div class=""><img class="icon-size" src="img/new-icons/dashboard.svg"></div>
+				<div class=""><img class="icon-size" src="img/new-icons/stall.svg"></div>
 			<div class="ml-5  hvr-bob">
-				<h1 class="mb-2 p-0 text-capitalize">City Dashboards</h1>
-				<p class="mb-0 text-capitalize">SBP & Parking Dashboards</p>
+				<h1 class="mb-2 p-0 text-capitalize">Markets</h1>
+				<p class="mb-0 text-capitalize">Coming soon ...</p>
 			</div>
 			</div>
 			</a>
@@ -192,6 +221,8 @@
 		</div>
 	</div>
 </div>
+	
+	
 <!--	mobile view services-->
 <!--	mobile view services-->
 </section>
@@ -220,9 +251,12 @@
 </div>
 <!--scripts--> 
 <script type="text/javascript" src="js/jquery.min.js"></script> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
 	<script src="js/owl/owl.carousel.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
+		
+		
 		$('.the-module').addClass("bounce");
 		$('.modules-container').addClass("tada");
 	});
@@ -239,7 +273,7 @@ owl.owlCarousel({
 	
 	var owl = $('.owl-carousel2');
 owl.owlCarousel({
-    items:4,
+    items:5,
     loop:true,
     margin:0,
    autoplay:true,

@@ -1165,7 +1165,7 @@ section {
 #home-one-info {
 /*    background-color: #f7f7f7;*/
     padding: 0px 0 70px;
-	border-top: 20px #ec5a0e solid;
+	border-top: 20px #ffdc01 solid;
 }
 #home-section.parallax-section::before {
     background-color: rgba(37, 34, 34, 0.1);
@@ -2028,7 +2028,7 @@ a, .link, .button.transparent, .button.transparent:hover, .specials_slider_wrapp
     display: none;
 }
 .show {
-    display: none!important;
+/*    display: none!important;*/
 }
 }
 .profile-pic img {
@@ -4617,6 +4617,7 @@ div.dataTables_wrapper div.dataTables_info{
 	font-size: 16px;
     font-weight: bold;
     text-transform: uppercase !important;
+	color: #004326;
 }
 .the-module p{
 	line-height: 20px;
@@ -4654,7 +4655,7 @@ body{
 }
 
 .the-title{
-	color: #0bf4f3;
+	color: #ffdc01;
     z-index: 10000000000;
     position: relative;
 	text-transform: capitalize;
@@ -4663,10 +4664,10 @@ body{
     font-weight: 100;
 }
 .title-container{
-	padding: 30px;
+/*	padding: 30px;*/
     /* background: #38383873; */
     /* border: 1px solid white; */
-    border-top: 5px solid #0bf4f3;
+/*    border-top: 5px solid #ffdc01;*/
 }
 /*for landing page*/
 
@@ -4726,7 +4727,7 @@ body{
 }
 
 .hvr-bounce-to-right:before{
-	background: #0bf4f3 !important;
+	background: #ffdc01 !important;
 }
 .owl-theme .owl-nav.disabled+.owl-dots{
 	display: none !important;
@@ -4774,7 +4775,28 @@ body{
 	align-items: center;
 	padding: 15px 30px;
 }
+.kra-header{
+	padding-left: 30px !important;
+    padding-top: 50px;
+    border-left: 1px solid white;
+}
+.kra-header h1:first-child{
+	font-size: 79px;
+    font-weight: bold;
+}
+.kra-header h1:last-child{
+	font-weight: 300;
+}
 
+.our-logos img{
+	height: 40px;
+}
+.modal-open .modal{
+	background: #000000ad;
+}
+.modal.fade .modal-dialog{
+	margin-top: 130px;
+}
 
 
 /*drop shadow*/
