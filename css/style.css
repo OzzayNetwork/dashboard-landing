@@ -4777,15 +4777,19 @@ body{
 }
 .kra-header{
 	padding-left: 30px !important;
-    padding-top: 50px;
+    padding-top: 0px;
     border-left: 1px solid white;
 }
 .kra-header h1:first-child{
-	font-size: 79px;
+	font-size: 40px;
     font-weight: bold;
+    margin: 0px;
+    margin-bottom: 0px !important;
+    padding-bottom: 7px;
 }
 .kra-header h1:last-child{
 	font-weight: 300;
+    font-size: 25px;
 }
 
 .our-logos img{
@@ -4796,6 +4800,15 @@ body{
 }
 .modal.fade .modal-dialog{
 	margin-top: 130px;
+}
+.the-module div:first-child{
+	width: 250px;
+}
+.title-container img{
+	height: 125px;
+}
+.w-auto{
+	width: auto !important;
 }
 
 
