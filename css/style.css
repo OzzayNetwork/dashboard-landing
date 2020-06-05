@@ -1165,7 +1165,7 @@ section {
 #home-one-info {
 /*    background-color: #f7f7f7;*/
     padding: 0px 0 70px;
-	border-top: 20px #ffdc01 solid;
+	border-top: 10px #ffdc01 solid;
 }
 #home-section.parallax-section::before {
     background-color: rgba(37, 34, 34, 0.1);
@@ -4651,7 +4651,7 @@ body{
     /* width: 1390px; */
     right: 0px;
     bottom: -510px;
-	filter: brightness(0.2);
+	filter: brightness(0.5);
 }
 
 .the-title{
@@ -4799,7 +4799,7 @@ body{
 	background: #000000ad;
 }
 .modal.fade .modal-dialog{
-	margin-top: 130px;
+	margin-top: 100px;
 }
 .the-module div:first-child{
 	width: 250px;
@@ -4809,6 +4809,13 @@ body{
 }
 .w-auto{
 	width: auto !important;
+}
+.the-kra-logo{
+	height: auto !important;
+    position: absolute;
+    width: 35px;
+    right: 400px;
+    top: 27px;
 }
 
 
